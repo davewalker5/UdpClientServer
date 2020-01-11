@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <ReleaseVersion>1.0.0.1</ReleaseVersion>
+    <Description>.NET UdpClient Demonstration</Description>
   </PropertyGroup>
 
 </Project>

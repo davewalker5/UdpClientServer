@@ -14,4 +14,8 @@ Global
 		{0BC23853-A729-47A1-B186-9CEB56987BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC23853-A729-47A1-B186-9CEB56987BD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		description = .NET  UdpClient Demonstration
+		version = 1.0.0.1
+	EndGlobalSection
 EndGlobal

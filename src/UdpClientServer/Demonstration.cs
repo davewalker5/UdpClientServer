@@ -46,6 +46,7 @@ namespace UdpClientServer
             if (_source != null)
             {
                 _source.Cancel();
+                _source.Dispose();
             }
 
             server.Close();
@@ -116,6 +117,7 @@ namespace UdpClientServer
             client.Connect(IPAddress.Loopback, ClientServerPort);
 
             bool haveData;
+            bool stop = false;
             do
             {
                 Console.Write("Data or [ENTER] to quit : ");
@@ -128,14 +130,17 @@ namespace UdpClientServer
 
                     string response = client.Read(true);
                     Console.WriteLine($"{_pid} : Read {response.Length} bytes : {response}");
+
+                    stop = data.Trim().ToLower() == "stop";
                 }
             }
-            while (haveData);
+            while (haveData && !stop);
 
             // If we have a background process on another thread, cancel it
             if (_source != null)
             {
                 _source.Cancel();
+                _source.Dispose();
             }
 
             client.Close();

@@ -38,7 +38,6 @@ namespace UdpClientServer
 
         public void Dispose()
         {
-            // CA1063: Implement IDisposable correctly
             Dispose(true);
             GC.SuppressFinalize(this);
         }
@@ -47,7 +46,6 @@ namespace UdpClientServer
         {
             if (disposing)
             {
-                // Tidy up managed resources
                 if (_client != null)
                 {
                     try
