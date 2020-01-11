@@ -14,7 +14,7 @@ UdpClientServer is a demonstration of UDP connectivity using the .NET UdpCient. 
 | client | Receives input from the user and sends it to the server |
 | server | Receives and acknowledges data from the client |
 | sender | Broadcasts data at regular intervals |
-| listener | Listens for and reports data broadcast by tbe sender |
+| listener | Listens for and reports data broadcast by the sender |
 
 It also demonstrates client/listener and server/sender combinations.
 
