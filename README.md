@@ -1,5 +1,12 @@
 # UdpClientServer
 
+[![Build Status](https://github.com/davewalker5/UdpClientServer/workflows/.NET%20Core%20CI%20Build/badge.svg)](https://github.com/davewalker5/UdpClientServer/actions)
+[![GitHub issues](https://img.shields.io/github/issues/davewalker5/UdpClientServer)](https://github.com/davewalker5/UdpClientServer/issues)
+[![Releases](https://img.shields.io/github/v/release/davewalker5/UdpClientServer.svg?include_prereleases)](https://github.com/davewalker5/UdpClientServer/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/davewalker5/UdpClientServer/blob/master/LICENSE)
+[![Language](https://img.shields.io/badge/language-c%23-blue.svg)](https://github.com/davewalker5/UdpClientServer/)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/davewalker5/UdpClientServer)](https://github.com/davewalker5/UdpClientServer/)
+
 UdpClientServer is a demonstration of UDP connectivity using the .NET UdpCient. It demonstrates the following:
 
 | Mode | Description |
