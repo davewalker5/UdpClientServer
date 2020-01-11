@@ -131,7 +131,7 @@ This starts a listener on a background thread and a client, receiving input and 
 
 ## Feedback
 
-To file issues or suggestions, please use the [Issues](https://github.com/davewalker5/TelloCommander/issues) page for this project on GitHub.
+To file issues or suggestions, please use the [Issues](https://github.com/davewalker5/UdpClientServer/issues) page for this project on GitHub.
 
 ## License
 
