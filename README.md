@@ -127,7 +127,7 @@ This starts a listener on a background thread and a client, receiving input and 
 
 ## Authors
 
-- **Dave Walker** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/davewalker5/)
+- **Dave Walker** - *Initial work*
 
 ## Feedback
 
